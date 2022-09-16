@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&display=swap');
+
+body{
+    background-color: #ebf5fc;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1,
+h2{
+    word-spacing: 15px;
+    text-align: center;
+    font-family: "Abril Fatface", "Montserrat";
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: black;
+}
+
+h2{
+    border-bottom-color: rgba(0, 0, 0, 0.295);
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgba(81, 131, 206, 0.548);
+}
+
+.box{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(81, 131, 206, 0.548);
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    align-items: center;
+}
+
+.first-main-container{
+    border: 1px solid rgba(81, 131, 206, 0.548);
+}
+
+.first-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgba(81, 131, 206, 0.548);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.first-main2{
+    color: white;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgba(81, 131, 206, 0.548);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.first-main3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgba(81, 131, 206, 0.548);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+}
+
